@@ -1,5 +1,3 @@
-\<\<\<\<\<\<\< HEAD
-
 # Beancounter Plugin App for Alliance Auth (GitHub Version)<a name="example-plugin-app-for-alliance-auth-github-version"></a>
 
 This is a moon mining tax management plugin app for [Alliance Auth](https://gitlab.com/allianceauth/allianceauth)
