@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = example
+source = beancounter
 
 [report]
 exclude_lines =
