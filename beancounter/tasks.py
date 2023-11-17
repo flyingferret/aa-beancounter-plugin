@@ -14,6 +14,6 @@ logger = logging.getLogger(__name__)
 # Example Task
 @shared_task
 def example_task():
-    """Example Task"""
+    """Bean Counter Task"""
 
     pass

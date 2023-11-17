@@ -10,7 +10,11 @@ Test settings
 
 from .base import *
 
+<<<<<<< HEAD
 PACKAGE = "example"
+=======
+PACKAGE = "beancounter"
+>>>>>>> 7810cdd (Refactor Example to Beancounter)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/

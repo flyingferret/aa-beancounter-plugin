@@ -4,9 +4,10 @@
 from django.urls import path
 
 # AA Example App
-from example import views
+# AA Bean Counter App
+from beancounter import views
 
-app_name: str = "example"
+app_name: str = "beancounter"
 
 urlpatterns = [
     path("", views.index, name="index"),

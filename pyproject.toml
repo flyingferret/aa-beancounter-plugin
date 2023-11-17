@@ -5,12 +5,20 @@ requires = [
 ]
 
 [project]
+<<<<<<< HEAD
 name = "aa-example-plugin"
+=======
+name = "aa-beancounter-plugin"
+>>>>>>> 7810cdd (Refactor Example to Beancounter)
 description = "Example Plugin for Alliance Auth (GitHub Version)"
 readme = "README.md"
 keywords = [
     "allianceauth",
+<<<<<<< HEAD
     "example",
+=======
+    "beancounter",
+>>>>>>> 7810cdd (Refactor Example to Beancounter)
 ]
 license = {file = "LICENSE"}
 authors = [
@@ -44,9 +52,17 @@ Changelog = "https://github.com/ppfeufer/aa-example-plugin/blob/master/CHANGELOG
 "Issue / Bug Reports" = "https://github.com/ppfeufer/aa-example-plugin/issues"
 
 [tool.hatch.version]
+<<<<<<< HEAD
 path = "example/__init__.py"
 
 [tool.hatch.build]
 include = [
     "/example",
+=======
+path = "beancounter/__init__.py"
+
+[tool.hatch.build]
+include = [
+    "/beancounter",
+>>>>>>> 7810cdd (Refactor Example to Beancounter)
 ]

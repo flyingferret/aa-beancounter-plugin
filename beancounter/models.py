@@ -1,5 +1,5 @@
 """
-App Models
+Bean Counter Models
 Create your models in here
 """
 

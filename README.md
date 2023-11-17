@@ -1,3 +1,5 @@
+\<\<\<\<\<\<\< HEAD
+
 # Example Plugin App for Alliance Auth (GitHub Version)<a name="example-plugin-app-for-alliance-auth-github-version"></a>
 
 This is an example plugin app for [Alliance Auth](https://gitlab.com/allianceauth/allianceauth)
@@ -27,6 +29,7 @@ ______________________________________________________________________
   - [Installing Into Your Dev AA](#installing-into-your-dev-aa)
   - [Installing Into Production AA](#installing-into-production-aa)
   - [Contribute](#contribute)
+- [If you've made a new app for AA, please consider sharing it with the rest of thecommunity. For any questions on how to share your app, please contact the AA devs ontheir Discord. You find the current community creationshere.](#if-youve-made-a-new-app-for-aa-please-consider-sharing-it-with-the-rest-of-thecommunity-for-any-questions-on-how-to-share-your-app-please-contact-the-aa-devs-ontheir-discord-you-find-the-current-community-creationshere)
 
 <!-- mdformat-toc end -->
 
@@ -197,7 +200,8 @@ restart your allianceserver.
 
 ## Contribute<a name="contribute"></a>
 
-If you've made a new app for AA, please consider sharing it with the rest of the
-community. For any questions on how to share your app, please contact the AA devs on
-their Discord. You find the current community creations
-[here](https://gitlab.com/allianceauth/community-creations).
+# If you've made a new app for AA, please consider sharing it with the rest of the community. For any questions on how to share your app, please contact the AA devs on their Discord. You find the current community creations [here](https://gitlab.com/allianceauth/community-creations).<a name="if-youve-made-a-new-app-for-aa-please-consider-sharing-it-with-the-rest-of-thecommunity-for-any-questions-on-how-to-share-your-app-please-contact-the-aa-devs-ontheir-discord-you-find-the-current-community-creationshere"></a>
+
+@todo
+
+> > > > > > > 7810cdd (Refactor Example to Beancounter)

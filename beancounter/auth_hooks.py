@@ -8,7 +8,8 @@ from allianceauth import hooks
 from allianceauth.services.hooks import MenuItemHook, UrlHook
 
 # AA Example App
-from example import urls
+# AA Bean Counter App
+from beancounter import urls
 
 
 class ExampleMenuItem(MenuItemHook):
@@ -18,16 +19,16 @@ class ExampleMenuItem(MenuItemHook):
         # setup menu entry for sidebar
         MenuItemHook.__init__(
             self,
-            _("Example App"),
-            "fas fa-cube fa-fw",
-            "example:index",
-            navactive=["example:"],
+            _("Bean Counter"),
+            "fas fa-calculator fa-fw",
+            "beancounter:index",
+            navactive=["beaconuter:"],
         )
 
     def render(self, request):
         """Render the menu item"""
 
-        if request.user.has_perm("example.basic_access"):
+        if request.user.has_perm("beancounter.basic_access"):
             return MenuItemHook.render(self, request)
 
         return ""
@@ -44,4 +45,4 @@ def register_menu():
 def register_urls():
     """Register app urls"""
 
-    return UrlHook(urls, "example", r"^example/")
+    return UrlHook(urls, "beancounter", r"^beancounter/")

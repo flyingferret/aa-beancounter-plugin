@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 appname = example
 package = example
+=======
+appname = beancounter
+package = beancounter
+>>>>>>> 7810cdd (Refactor Example to Beancounter)
 
 help:
 	@echo "Makefile for $(appname)"
